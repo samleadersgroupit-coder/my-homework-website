@@ -270,7 +270,7 @@ function exitSite() {
   window.close();
 
   $("body").fadeOut(250, function () {
-    $("body").html('<div class="goodbye"><p>شكراً لزيارتكم أوتو رايد لتأجير السيارات.</p><p><a href="home.html">العودة إلى الصفحة الرئيسية</a></p></div>');
+    $("body").html('<div class="goodbye"><p>شكراً لزيارتكم أوتو رايد لتأجير السيارات.</p><p><a href="index.html">العودة إلى الصفحة الرئيسية</a></p></div>');
     $("body").fadeIn(250);
   });
   return false;
