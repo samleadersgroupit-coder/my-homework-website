@@ -267,7 +267,7 @@ function exitSite() {
   if (!window.confirm("هل تريد الخروج من الموقع؟")) {
     return false;
   }
-  //window.close();
+  window.close();
 
   $("body").fadeOut(250, function () {
     $("body").html('<div class="goodbye"><p>شكراً لزيارتكم أوتو رايد لتأجير السيارات.</p><p><a href="home.html">العودة إلى الصفحة الرئيسية</a></p></div>');
